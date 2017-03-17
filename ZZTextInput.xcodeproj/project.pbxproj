@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADCB63A31E7B855E0078ACA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCB63A21E7B855E0078ACA9 /* main.m */; };
+		ADCB63A61E7B855F0078ACA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCB63A51E7B855F0078ACA9 /* AppDelegate.m */; };
+		ADCB63AC1E7B855F0078ACA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCB63AA1E7B855F0078ACA9 /* Main.storyboard */; };
+		ADCB63AE1E7B855F0078ACA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCB63AD1E7B855F0078ACA9 /* Assets.xcassets */; };
+		ADCB63B11E7B855F0078ACA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCB63AF1E7B855F0078ACA9 /* LaunchScreen.storyboard */; };
+		ADCB63E11E7BC71C0078ACA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCB63D51E7BC71C0078ACA9 /* ViewController.m */; };
+		ADCB63E61E7BC71C0078ACA9 /* ZZTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCB63E01E7BC71C0078ACA9 /* ZZTextInput.m */; };
+		ADCB63F01E7BC8D00078ACA9 /* NSString+ZZTextInputExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCB63E91E7BC8D00078ACA9 /* NSString+ZZTextInputExtension.m */; };
+		ADCB63F11E7BC8D00078ACA9 /* UIColor+ZZTextInputExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCB63EB1E7BC8D00078ACA9 /* UIColor+ZZTextInputExtension.m */; };
+		ADCB63F21E7BC8D00078ACA9 /* UILabel+ZZTextInputExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCB63ED1E7BC8D00078ACA9 /* UILabel+ZZTextInputExtension.m */; };
+		ADCB63F31E7BC8D00078ACA9 /* UIView+ZZTextInputExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCB63EF1E7BC8D00078ACA9 /* UIView+ZZTextInputExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADCB639E1E7B855E0078ACA9 /* ZZTextInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTextInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCB63A21E7B855E0078ACA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADCB63A41E7B855E0078ACA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADCB63A51E7B855F0078ACA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADCB63AB1E7B855F0078ACA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADCB63AD1E7B855F0078ACA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADCB63B01E7B855F0078ACA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADCB63B21E7B855F0078ACA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCB63D41E7BC71C0078ACA9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADCB63D51E7BC71C0078ACA9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADCB63DF1E7BC71C0078ACA9 /* ZZTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTextInput.h; sourceTree = "<group>"; };
+		ADCB63E01E7BC71C0078ACA9 /* ZZTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTextInput.m; sourceTree = "<group>"; };
+		ADCB63E81E7BC8D00078ACA9 /* NSString+ZZTextInputExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZZTextInputExtension.h"; sourceTree = "<group>"; };
+		ADCB63E91E7BC8D00078ACA9 /* NSString+ZZTextInputExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZZTextInputExtension.m"; sourceTree = "<group>"; };
+		ADCB63EA1E7BC8D00078ACA9 /* UIColor+ZZTextInputExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZZTextInputExtension.h"; sourceTree = "<group>"; };
+		ADCB63EB1E7BC8D00078ACA9 /* UIColor+ZZTextInputExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZZTextInputExtension.m"; sourceTree = "<group>"; };
+		ADCB63EC1E7BC8D00078ACA9 /* UILabel+ZZTextInputExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZZTextInputExtension.h"; sourceTree = "<group>"; };
+		ADCB63ED1E7BC8D00078ACA9 /* UILabel+ZZTextInputExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZZTextInputExtension.m"; sourceTree = "<group>"; };
+		ADCB63EE1E7BC8D00078ACA9 /* UIView+ZZTextInputExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZTextInputExtension.h"; sourceTree = "<group>"; };
+		ADCB63EF1E7BC8D00078ACA9 /* UIView+ZZTextInputExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZTextInputExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADCB639B1E7B855E0078ACA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADCB63951E7B855E0078ACA9 = {
+			isa = PBXGroup;
+			children = (
+				ADCB63A01E7B855E0078ACA9 /* ZZTextInput */,
+				ADCB639F1E7B855E0078ACA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADCB639F1E7B855E0078ACA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADCB639E1E7B855E0078ACA9 /* ZZTextInput.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADCB63A01E7B855E0078ACA9 /* ZZTextInput */ = {
+			isa = PBXGroup;
+			children = (
+				ADCB63D61E7BC71C0078ACA9 /* ZZTextInput */,
+				ADCB63D31E7BC71C0078ACA9 /* DemoClasses */,
+				ADCB63A11E7B855E0078ACA9 /* Supporting Files */,
+			);
+			path = ZZTextInput;
+			sourceTree = "<group>";
+		};
+		ADCB63A11E7B855E0078ACA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADCB63A41E7B855E0078ACA9 /* AppDelegate.h */,
+				ADCB63A51E7B855F0078ACA9 /* AppDelegate.m */,
+				ADCB63AA1E7B855F0078ACA9 /* Main.storyboard */,
+				ADCB63AD1E7B855F0078ACA9 /* Assets.xcassets */,
+				ADCB63AF1E7B855F0078ACA9 /* LaunchScreen.storyboard */,
+				ADCB63B21E7B855F0078ACA9 /* Info.plist */,
+				ADCB63A21E7B855E0078ACA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADCB63D31E7BC71C0078ACA9 /* DemoClasses */ = {
+			isa = PBXGroup;
+			children = (
+				ADCB63D41E7BC71C0078ACA9 /* ViewController.h */,
+				ADCB63D51E7BC71C0078ACA9 /* ViewController.m */,
+			);
+			path = DemoClasses;
+			sourceTree = "<group>";
+		};
+		ADCB63D61E7BC71C0078ACA9 /* ZZTextInput */ = {
+			isa = PBXGroup;
+			children = (
+				ADCB63E71E7BC8D00078ACA9 /* Extension */,
+				ADCB63DF1E7BC71C0078ACA9 /* ZZTextInput.h */,
+				ADCB63E01E7BC71C0078ACA9 /* ZZTextInput.m */,
+			);
+			path = ZZTextInput;
+			sourceTree = "<group>";
+		};
+		ADCB63E71E7BC8D00078ACA9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ADCB63E81E7BC8D00078ACA9 /* NSString+ZZTextInputExtension.h */,
+				ADCB63E91E7BC8D00078ACA9 /* NSString+ZZTextInputExtension.m */,
+				ADCB63EA1E7BC8D00078ACA9 /* UIColor+ZZTextInputExtension.h */,
+				ADCB63EB1E7BC8D00078ACA9 /* UIColor+ZZTextInputExtension.m */,
+				ADCB63EC1E7BC8D00078ACA9 /* UILabel+ZZTextInputExtension.h */,
+				ADCB63ED1E7BC8D00078ACA9 /* UILabel+ZZTextInputExtension.m */,
+				ADCB63EE1E7BC8D00078ACA9 /* UIView+ZZTextInputExtension.h */,
+				ADCB63EF1E7BC8D00078ACA9 /* UIView+ZZTextInputExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADCB639D1E7B855E0078ACA9 /* ZZTextInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCB63B51E7B855F0078ACA9 /* Build configuration list for PBXNativeTarget "ZZTextInput" */;
+			buildPhases = (
+				ADCB639A1E7B855E0078ACA9 /* Sources */,
+				ADCB639B1E7B855E0078ACA9 /* Frameworks */,
+				ADCB639C1E7B855E0078ACA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZTextInput;
+			productName = ZZTextInput;
+			productReference = ADCB639E1E7B855E0078ACA9 /* ZZTextInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADCB63961E7B855E0078ACA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Z;
+				TargetAttributes = {
+					ADCB639D1E7B855E0078ACA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ADCB63991E7B855E0078ACA9 /* Build configuration list for PBXProject "ZZTextInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADCB63951E7B855E0078ACA9;
+			productRefGroup = ADCB639F1E7B855E0078ACA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADCB639D1E7B855E0078ACA9 /* ZZTextInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADCB639C1E7B855E0078ACA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCB63B11E7B855F0078ACA9 /* LaunchScreen.storyboard in Resources */,
+				ADCB63AE1E7B855F0078ACA9 /* Assets.xcassets in Resources */,
+				ADCB63AC1E7B855F0078ACA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCB639A1E7B855E0078ACA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCB63E11E7BC71C0078ACA9 /* ViewController.m in Sources */,
+				ADCB63F21E7BC8D00078ACA9 /* UILabel+ZZTextInputExtension.m in Sources */,
+				ADCB63E61E7BC71C0078ACA9 /* ZZTextInput.m in Sources */,
+				ADCB63A61E7B855F0078ACA9 /* AppDelegate.m in Sources */,
+				ADCB63F31E7BC8D00078ACA9 /* UIView+ZZTextInputExtension.m in Sources */,
+				ADCB63F11E7BC8D00078ACA9 /* UIColor+ZZTextInputExtension.m in Sources */,
+				ADCB63F01E7BC8D00078ACA9 /* NSString+ZZTextInputExtension.m in Sources */,
+				ADCB63A31E7B855E0078ACA9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADCB63AA1E7B855F0078ACA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCB63AB1E7B855F0078ACA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADCB63AF1E7B855F0078ACA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCB63B01E7B855F0078ACA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADCB63B31E7B855F0078ACA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADCB63B41E7B855F0078ACA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADCB63B61E7B855F0078ACA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZTextInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhang.yD.ZZTextInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADCB63B71E7B855F0078ACA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZZTextInput/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zhang.yD.ZZTextInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADCB63991E7B855E0078ACA9 /* Build configuration list for PBXProject "ZZTextInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCB63B31E7B855F0078ACA9 /* Debug */,
+				ADCB63B41E7B855F0078ACA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCB63B51E7B855F0078ACA9 /* Build configuration list for PBXNativeTarget "ZZTextInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCB63B61E7B855F0078ACA9 /* Debug */,
+				ADCB63B71E7B855F0078ACA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADCB63961E7B855E0078ACA9 /* Project object */;
+}
